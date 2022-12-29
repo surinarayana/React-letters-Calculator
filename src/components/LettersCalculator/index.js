@@ -31,17 +31,9 @@ class LettersCalculator extends Component {
               onChange={this.onCountSearchInput}
             />
           </label>
-
-          {/* <label className="phrase"> Enter the phrase <label/>
-          <input
-            type="text"
-            className="input"
-            placeholder="Enter the phrase"
-            onChange={this.onCountSearchInput}
-          /> */}
-          <div className="count-container">
-            <p>No.of letters: {count}</p>
-          </div>
+        </div>
+        <div className="count-container">
+          <p>No.of letters: {count}</p>
         </div>
       </div>
     )
